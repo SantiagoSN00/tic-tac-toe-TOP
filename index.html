@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="container">
+
+        <div class="header">
+            <h1>A simple game of TIC-TAC-TOE</h1>
+        </div>
+
+        <div class="input-players ">
+
+            <form id="formulario" action="" onsubmit="return false">
+                <h2>Ingresar jugador uno(O)</h2>
+            <label for="jugador1"></label><input type="text"  value="jugador 1" id="jugador1"name="jugador1" maxlength="30" required>
+
+                <h2>Ingresar jugador dos(X)</h2>
+            <label for="jugador2"></label><input type="text" value="jugador 2"id="jugador2" name="jugador2" maxlength="30" required>
+                
+            <button id="empezar-juego" type="submit"> Start Game!</button>
+            </form>
+        </div>
+        <div class="content escondido">
+            <div class="cell" id="1"></div>
+            <div class="cell" id="2"></div>
+            <div class="cell" id="3"></div>
+            <div class="cell" id="4"></div>
+            <div class="cell" id="5"></div>
+            <div class="cell" id="6"></div>
+            <div class="cell" id="7"></div>
+            <div class="cell" id="8"></div>
+            <div class="cell" id="9"></div>
+        </div>
+    </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
